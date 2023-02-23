@@ -52,6 +52,42 @@ Created on Wed Feb 22 12:04:11 2023
 #         print(f"{til.upper() }", end=' ')
 
 
+#Amaliyot
+shaxs_1 = {
+    'name' : "Abu Abdulloh Muhammad ibn Ismoil",
+    't_yili' : 810,
+    't_joyi' : 'Buxoro',
+    'yoshi' : 60
+    }
+
+shaxs_2 = {
+    'name' : "Abdulla Qodiriy",
+    't_yili' : 1984,
+    't_joyi' : 'Toshkent',
+    'yoshi' : 44
+    }
+
+shaxs_3 = {
+    'name' : "Erkin Vohidov",
+    't_yili' : 1936,
+    't_joyi' : 'Fargona',
+    'yoshi' : 80
+    }
+
+shaxs_4 = {
+    'name' : "Alisher Navoiy",
+    't_yili' : 1441,
+    't_joyi' : 'Xirot',
+    'yoshi' : 60
+    }
+
+mashxurlar = [shaxs_1, shaxs_2, shaxs_3, shaxs_4]
+for shaxs in mashxurlar:
+    ism = shaxs['name']
+    tyil = shaxs['t_yili']
+    tjoyi = shaxs['t_joyi']
+    umri = shaxs['yoshi']
+    print(f"{ism} {tyil}-yilda {tjoyi}da tavallud topgan. {umri} yil umr korgan.")
     
 
 
